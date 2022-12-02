@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "paths": {
+        "#assets/*": ["./src/assets/*"],
+        "#components/*": ["./src/components/*"],
+        // "#icons": ["./src/components/icons.tsx"],
+        // "#configs/*": ["./src/configs/*"],
+        // "#hooks/*": ["./src/hooks/*"],
+        // "#modules/*": ["./src/modules/*"],
+        // "#layouts/*": ["./src/layouts/*"],
+        // "#providers/*": ["./src/providers/*"],
+        // "#services/*": ["./src/services/*"],
+        // "#types/*": ["./src/types/*"],
+        // "#utils/*": ["./src/utils/*"]
+      }
+    }
+  }

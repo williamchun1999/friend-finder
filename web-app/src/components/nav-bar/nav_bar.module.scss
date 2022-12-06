@@ -1,0 +1,27 @@
+.headerWrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+    height: 7.5vh;
+    justify-content: space-between;
+}
+.logoWrapper {
+    margin-left: 2rem;
+}
+.navWrapper {
+    width: 60%;
+    margin-right: 2rem;
+}
+.navMenu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+.navLinks {
+    color: blue;
+    flex: 1;
+}
+// Media Query for Mobile

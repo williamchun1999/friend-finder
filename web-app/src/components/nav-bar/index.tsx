@@ -1,5 +1,5 @@
 import styles from "./nav_bar.module.scss";
-import Logo from '#assets/logoipsum-291.svg';
+import Logo from '#assets/placeholder.svg';
 
 export const NavBar = ({ pageNames }: { pageNames: Array<string> }) => {
   const links = pageNames.map((pageName) => (

@@ -1,9 +1,9 @@
 import './App.css'
-import { NavBar } from '#components/nav-bar/nav_bar'
+import {Home } from './pages/home/home';
 // Holds Application routes (Landing, Home, Profile)
 function App() {
   return (
-    <NavBar pageNames={['Profile', 'Settings', 'Log Out']}/>
+    <Home/>
   )
 }
 

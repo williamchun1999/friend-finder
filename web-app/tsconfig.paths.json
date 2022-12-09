@@ -3,7 +3,7 @@
       "paths": {
         "#assets/*": ["./src/assets/*"],
         "#components/*": ["./src/components/*"],
-        // "#icons": ["./src/components/icons.tsx"],
+        "#common/*": ["./src/common/*"],
         // "#configs/*": ["./src/configs/*"],
         // "#hooks/*": ["./src/hooks/*"],
         // "#modules/*": ["./src/modules/*"],

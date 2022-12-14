@@ -1,6 +1,9 @@
+@import "#common/variables.scss";
+
 .homeWrapper {
     display: flex;
     justify-content: space-evenly;
+    background-color: $primary-faded;
 
 }
 

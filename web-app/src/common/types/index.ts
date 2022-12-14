@@ -1,6 +1,6 @@
-import { Shape } from './shape';
+import { Variant } from './variant';
 import { Size } from './size';
 export {
-    Shape,
+    Variant,
     Size,
 }

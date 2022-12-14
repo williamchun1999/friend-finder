@@ -1,11 +1,13 @@
+@import "#common/variables.scss";
+
 .headerWrapper {
     display: flex;
     align-items: center;
     width: 100%;
-    background-color: #FFCFCF;
+    background-color: $primary;
     height: 7.5vh;
     justify-content: space-between;
-    border-bottom: 0.1rem solid black;
+    border-bottom: $border;
 }
 .logoWrapper {
     margin-left: 2rem;

@@ -1,6 +1,8 @@
+@import "#common/variables.scss";
+
 .lg {
     width: 250px;
-    height: 75px;
+    height: 70px;
 }
 .md {
     width: 200px;
@@ -10,10 +12,10 @@
 }
 
 .green {
-    border: 0.1rem solid black;
+    border: $border;
     background-color: #AFE1AF;
 }
 .red {
-    border: 0.1rem solid black;
+    border: $border;
     background-color: #E76363;
 }

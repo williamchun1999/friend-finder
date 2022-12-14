@@ -1,7 +1,16 @@
+@import '#common/variables.scss';
+
 .mainPanel {
-    width: 80%;
+    width: 90%;
     height: 92.5vh;
     display: flex;
+    flex-flow: column nowrap;
     justify-content: space-evenly;
+    align-items: center;
+}
+.buttonGroup {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }

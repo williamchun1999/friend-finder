@@ -1,14 +1,15 @@
-import styles from "./home.module.scss";
+import { Outlet } from 'react-router-dom';
 
 import { NavBar } from "#components/nav-bar";
-import { MainPanel } from "#components/main-panel";
 
-export const Home = () => {
+import styles from "./authenticatedLayout.module.scss";
+
+export const AuthenticatedLayout = () => {
   return (
     <>
       <NavBar pageNames={["Profile", "Friends", "Log Out"]} />
       <div className={styles.homeWrapper}>
-        <MainPanel />
+        <Outlet/>
       </div>
     </>
   );

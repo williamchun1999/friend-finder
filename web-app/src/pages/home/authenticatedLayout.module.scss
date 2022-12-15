@@ -1,9 +1,11 @@
 @import "#common/variables.scss";
 
-.homeWrapper {
+.layout {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: space-evenly;
-    background-color: $primary-faded;
-
+    flex-flow: column nowrap;
+    align-items: center;
 }
+
 

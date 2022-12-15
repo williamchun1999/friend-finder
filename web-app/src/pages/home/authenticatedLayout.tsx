@@ -6,11 +6,9 @@ import styles from "./authenticatedLayout.module.scss";
 
 export const AuthenticatedLayout = () => {
   return (
-    <>
+    <div className={styles.layout}>
       <NavBar pageNames={["Profile", "Friends", "Log Out"]} />
-      <div className={styles.homeWrapper}>
         <Outlet/>
-      </div>
-    </>
+    </div>
   );
 };

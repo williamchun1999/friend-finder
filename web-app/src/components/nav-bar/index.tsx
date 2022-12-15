@@ -21,7 +21,7 @@ export const NavBar = ({ pageNames }: { pageNames: Array<string> }) => {
       <nav className={styles.navWrapper}>
         <ul className={styles.navMenu}>
           <li className={styles.navLinks}>
-            <Link to="home">HOME</Link>
+            <Link to="">HOME</Link>
           </li>
           {links}
         </ul>

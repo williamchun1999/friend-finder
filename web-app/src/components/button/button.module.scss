@@ -1,21 +1,31 @@
 @import "#common/variables.scss";
 
+* {
+    border: $border;
+}
+
+/* Variant */
+.primary {
+    
+    background-color: $primary;
+}
+.addFriend {
+    background-color: #AFE1AF;
+}
+.passFriend {
+    background-color: #E76363;
+}
+
+/* Size */
 .lg {
     width: 250px;
     height: 70px;
 }
 .md {
     width: 200px;
+    height: 56px;
 }
 .sm {
     width: 150px;
-}
-
-.green {
-    border: $border;
-    background-color: #AFE1AF;
-}
-.red {
-    border: $border;
-    background-color: #E76363;
+    height: 42px;
 }

@@ -4,6 +4,7 @@
         "#assets/*": ["./src/assets/*"],
         "#components/*": ["./src/components/*"],
         "#common/*": ["./src/common/*"],
+        "#pages/*": ["./src/pages/*"],
         // "#configs/*": ["./src/configs/*"],
         // "#hooks/*": ["./src/hooks/*"],
         // "#modules/*": ["./src/modules/*"],

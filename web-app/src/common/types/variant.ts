@@ -1,5 +1,6 @@
 export enum Variant {
-    outlined = 'outlined',
-    contained ='contained',
+    primary = 'primary',
+    addFriend = 'addFriend',
+    passFriend = 'passFriend',
 
 }

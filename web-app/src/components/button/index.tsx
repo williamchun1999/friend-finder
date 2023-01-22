@@ -6,7 +6,6 @@ import React from "react";
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size: Size;
   variant: Variant;
-  color: string;
   text: string;
 }
 
@@ -15,7 +14,8 @@ export const Button = (props: ButtonProps) => {
     <button
       className={`${styles[props.size]} ${props.className} ${
         styles[props.variant]
-      } ${styles[props.color]}`}
+      }`}
+      onClick={props.onClick}
     >
       {props.text}
     </button>

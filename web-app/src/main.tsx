@@ -2,13 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { MainPanel } from "#components/main-panel";
+import { MainPanel, ProfileCard, EditProfile } from "#components/index";
+import Profile from "#pages/profile/profile";
+import ErrorPage from "#pages/error/error";
 
 import App from "./App";
-import Profile from "./pages/profile/profile";
-import ErrorPage from "./pages/error/error";
 import "./index.css";
-import { ProfileCard } from "#components/profile-card";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +29,7 @@ const router = createBrowserRouter([
           },
           {
             path: "edit",
+            element: <EditProfile />,
           },
           {
             path: "settings",

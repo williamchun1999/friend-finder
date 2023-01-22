@@ -9,17 +9,15 @@ export const MainPanel = () => {
       <div className={styles.buttonGroup}>
         <Button
           className={styles.passButton}
-          color="red"
           onClick={() => console.log("Pass")}
-          variant={Variant.outlined}
+          variant={Variant.passFriend}
           size={Size.large}
           text="Pass"
         />
         <Button
           className={styles.addFriendButton}
-          color="green"
           onClick={() => console.log("test")}
-          variant={Variant.outlined}
+          variant={Variant.addFriend}
           size={Size.large}
           text="Add Friend"
         />

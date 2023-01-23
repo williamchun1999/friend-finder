@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Provider } from "react-redux";
 
 import { MainPanel, ProfileCard, EditProfile } from "#components/index";
 import Profile from "#pages/profile/profile";
@@ -42,6 +43,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={}>
+      <RouterProvider router={router} />
+    </Provider>
   </React.StrictMode>
 );

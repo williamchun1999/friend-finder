@@ -1,4 +1,5 @@
 import { Profile } from "#common/types/profile";
+
 import { ProfileAction } from "../actions/profile_actions";
 
 const initialState:Profile = {
